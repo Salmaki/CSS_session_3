@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+fieldset {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 35px 45px;
+    box-shadow: 0 10px 30px rgba(255, 100, 150, 0.2);
+}
+
+legend {
+    display: none;
+}
+
+h1 {
+    font-size: 2em;
+    color: #e91e63;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f8bbd0;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #ff80ab;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-left: 5px solid #e91e63;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+p a {
+    color: #e91e63;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+p a:hover {
+    color: #ff80ab;
+    text-decoration: underline;
+}
+
+form {
+    padding: 20px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+    font-size: 0.9em;
+}
+
+input[type="text"], 
+input[type="email"], 
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #f8bbd0;
+    border-radius: 8px;
+    font-size: 1em;
+    background-color: #fff0f5;
+}
+
+input:focus, 
+textarea:focus {
+    border-color: #e91e63;
+    box-shadow: 0 0 5px rgba(233, 30, 99, 0.5);
+    outline: none;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff80ab;
+    transform: translateY(-2px);
+}
+
+nav {
+    margin-top: 40px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e91e63;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 8px 12px;
+    transition: all 0.3s;
+    border-radius: 20px;
+    border: 2px solid transparent;
+}
+
+nav a:hover {
+    background-color: #f8bbd0;
+    border-color: #e91e63;
+}
