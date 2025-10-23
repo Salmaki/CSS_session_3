@@ -85,3 +85,18 @@ nav a:hover {
   font-weight: 700;         
   width: 90%;
 }
+
+
+
+
+@media (max-width:600px){
+    header img{
+        width: 100px;
+        height: 100px;
+    }
+    nav {
+        width: 100%;
+        display: flex;
+    
+    }
+}
